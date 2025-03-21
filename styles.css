@@ -1,0 +1,16 @@
+
+#split-image img {
+    position: absolute;
+    left: 0px;
+}
+#image-left {
+    z-index: 1;
+    clip-path: inset(0 50% 0 0);
+    transition-property: clip-path;
+    transition-duration: 400ms;
+    transition-timing-function: ease-out;
+}
+
+#image-right {
+    z-index: 0;
+}
